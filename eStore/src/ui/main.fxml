@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="root" minHeight="504.5" minWidth="579.0" prefHeight="504.5" prefWidth="727.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="ui.MainController">
+  <children>
+    <AnchorPane prefHeight="505.0" prefWidth="727.0" styleClass="mainpane" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="22.0">
+      <children>
+        <GridPane prefHeight="426.5" prefWidth="727.0" AnchorPane.bottomAnchor="39.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="39.0">
+          <children>
+            <Button id="icon_stock" fx:id="b_icon_stock" contentDisplay="TOP" mnemonicParsing="false" styleClass="icono" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="1">
+              <graphic>
+                <ImageView fx:id="iv_icon_stock" fitHeight="150.0" fitWidth="200.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" />
+              </graphic>
+            </Button>
+            <Button id="icon_sale" fx:id="b_icon_invoice" contentDisplay="TOP" mnemonicParsing="false" styleClass="icono" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="1">
+              <graphic>
+                <ImageView id="iv_icon_sale" fx:id="iv_icon_invoice" fitHeight="150.0" fitWidth="200.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" />
+              </graphic>
+            </Button>
+            <Button fx:id="b_icon_e" contentDisplay="TOP" mnemonicParsing="false" styleClass="icono" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="1">
+              <graphic>
+                <ImageView fx:id="iv_icon_e" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+              </graphic>
+            </Button>
+          </children>
+          <columnConstraints>
+            <ColumnConstraints hgrow="NEVER" maxWidth="140.0" minWidth="10.0" prefWidth="140.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="-1.0" minWidth="-1.0" prefWidth="50.0" />
+            <ColumnConstraints hgrow="NEVER" maxWidth="-1.0" minWidth="-1.0" prefWidth="50.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="-1.0" minWidth="-1.0" prefWidth="50.0" />
+            <ColumnConstraints hgrow="NEVER" maxWidth="-1.0" minWidth="-1.0" prefWidth="50.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="-1.0" minWidth="-1.0" prefWidth="50.0" />
+            <ColumnConstraints hgrow="NEVER" maxWidth="140.0" minWidth="10.0" prefWidth="140.0" />
+          </columnConstraints>
+          <rowConstraints>
+            <RowConstraints maxHeight="234.0" minHeight="10.0" prefHeight="234.0" vgrow="NEVER" />
+            <RowConstraints maxHeight="150.0" minHeight="10.0" prefHeight="18.0" valignment="CENTER" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="291.0" minHeight="10.0" prefHeight="207.0" vgrow="NEVER" />
+          </rowConstraints>
+        </GridPane>
+      </children>
+    </AnchorPane>
+    <GridPane prefHeight="78.0" prefWidth="727.0000999999975" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+      <children>
+        <Button id="icon_settings" fx:id="b_icon_settings" contentDisplay="CENTER" maxHeight="60.0" maxWidth="60.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="icono" text="" GridPane.columnIndex="0" GridPane.rowIndex="0">
+          <graphic>
+            <ImageView fx:id="iv_icon_settings" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+          </graphic>
+        </Button>
+        <Button fx:id="b_icon_fb" disable="false" maxHeight="50.0" maxWidth="50.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="icono2" text="" GridPane.columnIndex="2" GridPane.rowIndex="0">
+          <graphic>
+            <ImageView fx:id="iv_icon_fb" fitHeight="50.0" fitWidth="50.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" />
+          </graphic>
+        </Button>
+        <Button fx:id="b_icon_tw" maxHeight="50.0" maxWidth="50.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="icono2" text="" GridPane.columnIndex="1" GridPane.rowIndex="0">
+          <graphic>
+            <ImageView fx:id="iv_icon_tw" fitHeight="50.0" fitWidth="50.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" />
+          </graphic>
+        </Button>
+      </children>
+      <columnConstraints>
+        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="182.0" minWidth="10.0" prefWidth="109.0" />
+        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="100.0" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints halignment="CENTER" hgrow="NEVER" maxWidth="100.0" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="403.0" minWidth="10.0" prefWidth="397.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="NEVER" />
+      </rowConstraints>
+    </GridPane>
+  </children>
+  <stylesheets>
+    <URL value="@util/main.css" />
+  </stylesheets>
+</AnchorPane>

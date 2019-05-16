@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="ui.InvoiceController">
+  <children>
+    <TableView fx:id="invoice_t_invoice" prefHeight="358.0" prefWidth="240.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="28.0">
+      <columns>
+        <TableColumn prefWidth="75.0" text="Column X" />
+        <TableColumn prefWidth="75.0" text="Column X" />
+      </columns>
+    </TableView>
+    <Label fx:id="invoice_l_date" text="Label" AnchorPane.leftAnchor="444.0" AnchorPane.topAnchor="44.0">
+      <font>
+        <Font name="System Bold" size="16.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label fx:id="invoice_l_name" font="$x1" text="Label" AnchorPane.leftAnchor="269.0" AnchorPane.topAnchor="44.0" />
+    <TableView fx:id="invoice_t_line" prefHeight="216.0" prefWidth="317.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="269.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="84.0">
+      <columns>
+        <TableColumn prefWidth="75.0" text="Column X" />
+        <TableColumn prefWidth="75.0" text="Column X" />
+      </columns>
+    </TableView>
+    <Label fx:id="invoice_l_subtotal" text="Label" textAlignment="RIGHT" AnchorPane.bottomAnchor="77.0" AnchorPane.rightAnchor="116.0">
+      <font>
+        <Font name="System Bold" size="12.0" fx:id="x2" />
+      </font>
+    </Label>
+    <Label fx:id="invoice_l_tax" font="$x2" text="Label" textAlignment="RIGHT" AnchorPane.bottomAnchor="54.0" AnchorPane.rightAnchor="116.0" />
+    <Label fx:id="invoice_l_total" font="$x1" text="Label" textAlignment="RIGHT" AnchorPane.bottomAnchor="19.0" AnchorPane.rightAnchor="116.0" />
+    <Label id="invoice_l_subtotal" fx:id="invoice_l_subtotal_name" contentDisplay="RIGHT" font="$x2" text="Label" textAlignment="RIGHT" AnchorPane.bottomAnchor="77.0" AnchorPane.rightAnchor="225.0" />
+    <Label id="invoice_l_tax" fx:id="invoice_l_tax_name" contentDisplay="RIGHT" font="$x2" text="Label" textAlignment="RIGHT" AnchorPane.bottomAnchor="54.0" AnchorPane.rightAnchor="225.0" />
+    <Label id="invoice_l_total" fx:id="invoice_l_total_name" contentDisplay="RIGHT" font="$x1" text="Label" textAlignment="RIGHT" AnchorPane.bottomAnchor="19.0" AnchorPane.rightAnchor="225.0" />
+  </children>
+</AnchorPane>

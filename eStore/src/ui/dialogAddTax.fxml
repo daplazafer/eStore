@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="179.9609375" prefWidth="300.0001220703125" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="ui.DialogAddTaxController">
+  <children>
+    <Button fx:id="add_tax_b_cancel" layoutX="30.0" layoutY="129.0" mnemonicParsing="false" text="Button" />
+    <Button fx:id="add_tax_b_ok" layoutX="214.0" layoutY="130.0" mnemonicParsing="false" text="Button" />
+    <Label fx:id="add_tax_l_name" layoutX="30.0" layoutY="44.0" text="Label" />
+    <TextField fx:id="add_tax_tf_name" layoutX="104.0" layoutY="41.0" prefWidth="166.0" />
+    <TextField fx:id="add_tax_tf_value" layoutX="206.0" layoutY="79.0" prefWidth="64.0" />
+    <Label fx:id="add_tax_l_value" layoutX="30.0" layoutY="82.0" text="Label" />
+  </children>
+</AnchorPane>

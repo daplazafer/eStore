@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="321.0" prefWidth="356.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="ui.SettingsController">
+  <children>
+    <TabPane prefHeight="258.0" prefWidth="356.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="36.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="27.0">
+      <tabs>
+        <Tab fx:id="settings_tab_general" text="Untitled Tab 1">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <Label id="settings_l_language" fx:id="settings_general_l_language" layoutX="30.0" layoutY="40.0" text="Label" />
+                <ComboBox id="settings_combo_language" fx:id="settings_general_combo_language" layoutX="180.0" layoutY="38.0" prefHeight="21.0" prefWidth="139.0">
+                  <items>
+                    <FXCollections fx:factory="observableArrayList">
+                      <String fx:value="Item 1" />
+                      <String fx:value="Item 2" />
+                      <String fx:value="Item 3" />
+                    </FXCollections>
+                  </items>
+                </ComboBox>
+                <Label id="settings_general_combo_currency" fx:id="settings_general_l_currency" layoutX="30.0" layoutY="80.0" text="Label" />
+                <ComboBox fx:id="settings_general_combo_currency" layoutX="180.0" layoutY="76.0">
+                  <items>
+                    <FXCollections fx:factory="observableArrayList">
+                      <String fx:value="Item 1" />
+                      <String fx:value="Item 2" />
+                      <String fx:value="Item 3" />
+                    </FXCollections>
+                  </items>
+                </ComboBox>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab fx:id="settings_tab_database" text="Untitled Tab 2">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <Label id="settings_l_plugin" fx:id="settings_db_l_plugin" layoutX="30.0" layoutY="40.0" text="Label" />
+                <ComboBox id="settings_combo_plugin" fx:id="settings_db_combo_plugin" layoutX="180.0" layoutY="38.0" prefHeight="21.0" prefWidth="140.0">
+                  <items>
+                    <FXCollections fx:factory="observableArrayList">
+                      <String fx:value="Item 1" />
+                      <String fx:value="Item 2" />
+                      <String fx:value="Item 3" />
+                    </FXCollections>
+                  </items>
+                </ComboBox>
+                <Label fx:id="settings_db_l_path" layoutX="30.0" layoutY="100.0" text="Label" />
+                <Label fx:id="settings_db_l_name" layoutX="30.0" layoutY="130.0" text="Label" />
+                <Label fx:id="settings_db_l_user" layoutX="30.0" layoutY="160.0" text="Label" />
+                <Label fx:id="settings_db_l_pass" layoutX="30.0" layoutY="190.0" text="Label" />
+                <TextField fx:id="settings_db_tf_path" layoutX="180.0" layoutY="97.0" prefWidth="140.0" />
+                <TextField fx:id="settings_db_tf_name" layoutX="180.0" layoutY="127.0" prefWidth="140.0" />
+                <TextField fx:id="settings_db_tf_user" layoutX="180.0" layoutY="157.0" prefWidth="140.0" />
+                <PasswordField fx:id="settings_db_tf_pass" layoutX="180.0" layoutY="187.0" prefWidth="140.0" />
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab fx:id="settings_tab_net" text="Untitled Tab">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <Label fx:id="settings_net_l_fb" layoutX="30.0" layoutY="40.0" text="https://www.facebook.com/" />
+                <TextField fx:id="settings_net_tf_fb" layoutX="178.0" layoutY="38.0" prefWidth="147.0" />
+                <Label fx:id="settings_net_l_tw" layoutX="30.0" layoutY="70.0" text="https://twitter.com/" />
+                <TextField fx:id="settings_net_tf_tw" layoutX="135.0" layoutY="67.0" prefWidth="147.0" />
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+      </tabs>
+    </TabPane>
+    <Button fx:id="settings_b_ok" layoutX="262.0" layoutY="287.0" mnemonicParsing="false" text="Button" />
+    <Button fx:id="settings_b_cancel" layoutX="159.0" layoutY="287.0" mnemonicParsing="false" text="Button" />
+  </children>
+  <stylesheets>
+    <URL value="@util/main.css" />
+  </stylesheets>
+</AnchorPane>

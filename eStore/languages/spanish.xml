@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<spanish>
+
+	<!--LANGUAGE you can get them from this list: http://www.oracle.com/technetwork/java/javase/locales-137662.html -->
+		<language>es</language>
+		<language0></language0>
+	
+	<!-- General -->	
+		<ok>Aceptar</ok>
+		<cancel>Cancelar</cancel>
+		<datepicker_today>Hoy</datepicker_today>
+	
+	<!--Main Window -->
+		<icon_e>Tienda</icon_e>
+		<icon_invoice>Facturas</icon_invoice>
+		<icon_stock>Almacén</icon_stock>
+		<icon_e_tt>Entra al TPV de la aplicación</icon_e_tt>
+		<icon_invoice_tt>Historial de facturas realizadas</icon_invoice_tt>
+		<icon_stock_tt>Consulte o modifique el almacén de su negocio</icon_stock_tt>
+		<icon_settings_tt>Defina ciertos parámetros de configuración</icon_settings_tt>
+		<icon_fb_tt>Link a la página de facebook de su empresa</icon_fb_tt>
+		<icon_tw_tt>Link al twitter de su empresa</icon_tw_tt>
+		<settings>Configuración</settings>
+		
+	<!--Shop Window -->
+		<shop_tittle>Tienda</shop_tittle>
+		<shop_date>Fecha</shop_date>
+		<shop_delete>Borrar</shop_delete>
+		<shop_add>Añadir</shop_add>
+		<shop_total>Total</shop_total>
+		<shop_subtotal>Bruto</shop_subtotal>
+		<shop_tax>Impuestos</shop_tax>
+		<shop_product>Producto</shop_product>
+		<shop_qty>Cantidad</shop_qty>
+		<shop_plus>+</shop_plus>
+		<shop_minus>-</shop_minus>
+		
+	<!--Invoice Window -->
+		<invoice_name>Factura</invoice_name>
+	
+	<!--Stock Window -->
+		<stock_save>Guardar</stock_save>
+		<stock_new>Nuevo</stock_new>
+		<stock_add>+</stock_add>
+		<stock_name>Nombre</stock_name>
+		<stock_category>Categoría</stock_category>
+		<stock_tax>Impuesto</stock_tax>
+		<stock_description>Descripción</stock_description>
+		<stock_qty>En stock</stock_qty>
+		<stock_active>Activo</stock_active>
+		<stock_price>Precio</stock_price>
+
+	<!--Add Dialogs -->
+		<add_dialog_new_category>Categoría</add_dialog_new_category>
+		<add_dialog_new_category_name>Introduzca el nombre de la nueva categoría</add_dialog_new_category_name>
+		<add_dialog_new_tax>Impuesto</add_dialog_new_tax>
+		<add_dialog_new_tax_name>Nombre</add_dialog_new_tax_name>
+		<add_dialog_new_tax_value>Valor</add_dialog_new_tax_value>
+		
+	<!-- Settings Dialog-->
+		<settings_tab_general>General</settings_tab_general>
+		<settings_tab_database>Base de datos</settings_tab_database>
+		<settings_tab_net>Internet</settings_tab_net>
+		<settings_language>Idioma</settings_language>
+		<settings_currency>Moneda</settings_currency>
+		<settings_dbplugin>Plugin</settings_dbplugin>
+		<settings_dbpath>Ruta</settings_dbpath>
+		<settings_dbname>Nombre</settings_dbname>
+		<settings_dbuser>Usuario</settings_dbuser>
+		<settings_dbpass>Contraseña</settings_dbpass>
+		
+</spanish>

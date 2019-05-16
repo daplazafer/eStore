@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="180.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="ui.DialogAddCategoryController">
+  <children>
+    <Button fx:id="add_category_b_cancel" layoutX="30.0" layoutY="130.0" mnemonicParsing="false" text="Button" />
+    <Button fx:id="add_category_b_ok" layoutX="214.0" layoutY="130.0" mnemonicParsing="false" text="Button" />
+    <Label id="add_category_l_text" fx:id="add_category_l_name" layoutX="30.0" layoutY="44.0" text="Label" />
+    <TextField fx:id="add_category_tf_name" layoutX="30.0" layoutY="68.0" prefWidth="240.0" />
+  </children>
+</AnchorPane>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<english>
+
+	<!--LANGUAGE you can get them from this list: http://www.oracle.com/technetwork/java/javase/locales-137662.html -->
+		<language>en</language>
+		<language0></language0>
+	
+	<!-- General -->	
+		<ok>Ok</ok>
+		<cancel>Cancel</cancel>
+		<datepicker_today>Today</datepicker_today>
+	
+	<!--Main Window -->
+		<icon_e>Shop</icon_e>
+		<icon_invoice>Invoices</icon_invoice>
+		<icon_stock>Storage</icon_stock>
+		<icon_e_tt>Go to the Shop</icon_e_tt>
+		<icon_invoice_tt>Go to the invoice archive</icon_invoice_tt>
+		<icon_stock_tt>Go to the storage </icon_stock_tt>
+		<icon_settings_tt>Configure your eStore</icon_settings_tt>
+		<icon_fb_tt>Link to your company facebook page</icon_fb_tt>
+		<icon_tw_tt>Link to your company twitter account</icon_tw_tt>
+		<settings>Configuration</settings>
+		
+	<!--Shop Window -->
+		<shop_tittle>Shop</shop_tittle>
+		<shop_date>Date</shop_date>
+		<shop_delete>Delete</shop_delete>
+		<shop_add>Add</shop_add>
+		<shop_total>Total</shop_total>
+		<shop_subtotal>Subtotal</shop_subtotal>
+		<shop_tax>Taxes</shop_tax>
+		<shop_product>Product</shop_product>
+		<shop_qty>Quantity</shop_qty>
+		<shop_plus>+</shop_plus>
+		<shop_minus>-</shop_minus>
+		
+	<!--Invoice Window -->
+		<invoice_name>Invoice</invoice_name>
+	
+	<!--Stock Window -->
+		<stock_save>Save</stock_save>
+		<stock_new>New</stock_new>
+		<stock_add>+</stock_add>
+		<stock_name>Name</stock_name>
+		<stock_category>Category</stock_category>
+		<stock_tax>Tax</stock_tax>
+		<stock_description>Description</stock_description>
+		<stock_qty>Available</stock_qty>
+		<stock_active>Active</stock_active>
+		<stock_price>Price</stock_price>
+
+	<!--Add Dialogs -->
+		<add_dialog_new_category>Category</add_dialog_new_category>
+		<add_dialog_new_category_name>Type the name for the new category</add_dialog_new_category_name>
+		<add_dialog_new_tax>Tax</add_dialog_new_tax>
+		<add_dialog_new_tax_name>Name</add_dialog_new_tax_name>
+		<add_dialog_new_tax_value>Value</add_dialog_new_tax_value>
+		
+	<!-- Settings Dialog-->
+		<settings_tab_general>General</settings_tab_general>
+		<settings_tab_database>Database</settings_tab_database>
+		<settings_tab_net>Internet</settings_tab_net>
+		<settings_language>Language</settings_language>
+		<settings_currency>Currency</settings_currency>
+		<settings_dbplugin>Plugin</settings_dbplugin>
+		<settings_dbpath>Path</settings_dbpath>
+		<settings_dbname>Name</settings_dbname>
+		<settings_dbuser>User</settings_dbuser>
+		<settings_dbpass>Password</settings_dbpass>
+		
+</english>

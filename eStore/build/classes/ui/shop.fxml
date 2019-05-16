@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" minHeight="-1.0" prefHeight="538.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="ui.ShopController">
+  <children>
+    <TableView id="stock_t_line" fx:id="shop_t_line" prefHeight="170.0" prefWidth="560.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="348.0">
+      <columns>
+        <TableColumn prefWidth="75.0" text="Column X" />
+        <TableColumn prefWidth="75.0" text="Column X" />
+      </columns>
+    </TableView>
+    <Button fx:id="shop_b_ok" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="icono2" text="" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="26.0">
+      <graphic>
+        <ImageView fx:id="shop_iv_ok" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="false" />
+      </graphic>
+    </Button>
+    <Button fx:id="shop_b_cancel" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="icono2" text="" AnchorPane.rightAnchor="96.0" AnchorPane.topAnchor="26.0">
+      <graphic>
+        <ImageView fx:id="shop_iv_cancel" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" />
+      </graphic>
+    </Button>
+    <Label fx:id="shop_l_datepicker" text="Label" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="93.0" />
+    <GridPane fx:id="shop_p_datepicker" prefHeight="22.0" prefWidth="83.0" AnchorPane.leftAnchor="88.0" AnchorPane.topAnchor="90.0">
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+    <ComboBox fx:id="shop_combo_category" prefHeight="21.0" prefWidth="187.0" AnchorPane.leftAnchor="88.0" AnchorPane.topAnchor="128.0">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <Label fx:id="shop_l_category" text="Label" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="131.0" />
+    <TableView fx:id="shop_t_product" prefHeight="170.0" prefWidth="255.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="325.0" AnchorPane.topAnchor="160.0">
+      <columns>
+        <TableColumn prefWidth="75.0" text="Column X" />
+        <TableColumn prefWidth="75.0" text="Column X" />
+      </columns>
+    </TableView>
+    <Button id="shop_b_" fx:id="shop_b_delete" alignment="CENTER_LEFT" mnemonicParsing="false" prefWidth="120.0" text="Button" underline="true" AnchorPane.rightAnchor="156.0" AnchorPane.topAnchor="285.0">
+      <font>
+        <Font name="System Bold" size="12.0" fx:id="x1" />
+      </font>
+      <graphic>
+        <ImageView fx:id="shop_iv_delete" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="false" />
+      </graphic>
+    </Button>
+    <Button fx:id="shop_b_add" alignment="CENTER_LEFT" font="$x1" mnemonicParsing="false" prefWidth="120.0" text="Button" underline="true" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="285.0">
+      <graphic>
+        <ImageView fx:id="shop_iv_add" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="false" />
+      </graphic>
+    </Button>
+    <Label id="shop_l_total" fx:id="shop_l_total_name" alignment="TOP_LEFT" text="Label" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="43.0">
+      <font>
+        <Font name="System Bold" size="25.0" fx:id="x2" />
+      </font>
+    </Label>
+    <Label id="shop_l_subtotal" fx:id="shop_l_subtotal_name" alignment="CENTER_RIGHT" contentDisplay="RIGHT" font="$x1" text="Label" textAlignment="RIGHT" AnchorPane.leftAnchor="245.0" AnchorPane.topAnchor="35.0" />
+    <Label fx:id="shop_l_product" text="Label" AnchorPane.rightAnchor="248.0" AnchorPane.topAnchor="174.0" />
+    <Label fx:id="shop_l_qty" text="Label" AnchorPane.rightAnchor="248.0" AnchorPane.topAnchor="229.0" />
+    <TextField fx:id="shop_tf_price" editable="false" focusTraversable="false" prefWidth="46.0" AnchorPane.rightAnchor="185.0" AnchorPane.topAnchor="197.0" />
+    <Button fx:id="shop_b_minus" mnemonicParsing="false" prefWidth="30.0" text="Button" AnchorPane.rightAnchor="201.0" AnchorPane.topAnchor="227.0" />
+    <TextField fx:id="shop_tf_qty" prefWidth="46.0" AnchorPane.rightAnchor="143.0" AnchorPane.topAnchor="227.0" />
+    <Button fx:id="shop_b_plus" mnemonicParsing="false" prefWidth="30.0" text="Button" AnchorPane.rightAnchor="103.0" AnchorPane.topAnchor="227.0" />
+    <Label fx:id="shop_l_price" text="Label" AnchorPane.rightAnchor="248.0" AnchorPane.topAnchor="200.0" />
+    <Label id="shop_l_subtotal" fx:id="shop_l_tax_name" alignment="CENTER_RIGHT" contentDisplay="RIGHT" font="$x1" text="Label" textAlignment="RIGHT" underline="false" AnchorPane.leftAnchor="245.0" AnchorPane.topAnchor="65.0" />
+    <TextField fx:id="shop_tf_product" editable="false" focusTraversable="false" prefWidth="211.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="171.0" />
+    <Label fx:id="shop_l_subtotal" alignment="CENTER_RIGHT" contentDisplay="RIGHT" font="$x1" layoutX="330.0" layoutY="35.0" text="Label" textAlignment="RIGHT" />
+    <Label id="shop_l_subtotal" fx:id="shop_l_tax" alignment="CENTER_RIGHT" contentDisplay="RIGHT" font="$x1" layoutX="330.0" layoutY="65.0" text="Label" textAlignment="RIGHT" underline="false" />
+    <Label fx:id="shop_l_total" alignment="CENTER_RIGHT" contentDisplay="RIGHT" font="$x2" layoutX="98.0" layoutY="43.0" text="Label" textAlignment="RIGHT" />
+  </children>
+  <stylesheets>
+    <URL value="@util/main.css" />
+  </stylesheets>
+</AnchorPane>
